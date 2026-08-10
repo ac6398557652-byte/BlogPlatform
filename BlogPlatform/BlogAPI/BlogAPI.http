@@ -1,0 +1,18 @@
+### Register a new user
+POST http://localhost:5075/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "anmol",
+  "email": "anmol@test.com",
+  "password": "mypassword123"
+}
+
+### Login
+POST http://localhost:5075/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "anmol@test.com",
+  "password": "mypassword123"
+}

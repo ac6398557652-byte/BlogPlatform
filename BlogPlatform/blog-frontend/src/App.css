@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.container {
+  max-width: 470px;
+  margin: 0 auto;
+  padding: 0 0 40px 0;
+  min-height: 100vh;
+}
+
+/* Header jaisa Instagram */
+h1 {
+  text-align: center;
+  color: #262626;
+  padding: 20px 0;
+  font-size: 28px;
+  font-weight: 700;
+  background: white;
+  border-bottom: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Auth toggle buttons */
+.auth-toggle {
+  display: flex;
+  gap: 0;
+  justify-content: center;
+  margin: 0 16px 15px 16px;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.auth-toggle button {
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  background: white;
+  color: #8e8e8e;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.auth-toggle button:hover {
+  background: #fafafa;
+  color: #262626;
+}
+
+/* Login/Signup Form */
+.auth-form {
+  background: white;
+  padding: 24px 20px;
+  border-radius: 12px;
+  border: 1px solid #dbdbdb;
+  margin: 0 16px 20px 16px;
+}
+
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  color: #262626;
+  font-size: 20px;
+}
+
+.auth-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth-form input {
+  padding: 12px;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  font-size: 14px;
+  background: #fafafa;
+  outline: none;
+}
+
+.auth-form input:focus {
+  border-color: #a8a8a8;
+}
+
+.auth-form button {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.auth-message {
+  text-align: center;
+  color: #ed4956;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+/* Welcome bar */
+.welcome-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 14px 16px;
+  border-radius: 12px;
+  margin: 0 16px 20px 16px;
+  border: 1px solid #dbdbdb;
+}
+
+.welcome-bar p {
+  font-weight: 600;
+  color: #262626;
+  font-size: 14px;
+}
+
+.welcome-bar button {
+  background: #efefef;
+  color: #262626;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.welcome-bar button:hover {
+  background: #dbdbdb;
+}
+
+/* Post creation form */
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #dbdbdb;
+  margin: 0 16px 24px 16px;
+}
+
+.post-form input,
+.post-form textarea {
+  padding: 12px;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  background: #fafafa;
+  outline: none;
+}
+
+.post-form textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.post-form button {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Posts feed */
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-card {
+  background: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 0 16px;
+}
+
+.post-card::before {
+  content: "";
+  display: block;
+  height: 50px;
+  background: linear-gradient(45deg, #405de6, #833ab4, #fd1d1d);
+  opacity: 0.08;
+}
+
+.post-card h2 {
+  color: #262626;
+  font-size: 17px;
+  padding: 14px 16px 6px 16px;
+}
+
+.post-card p {
+  color: #262626;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 0 16px 14px 16px;
+}
+
+.delete-btn {
+  background: none;
+  color: #ed4956;
+  border: none;
+  border-top: 1px solid #efefef;
+  width: 100%;
+  padding: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.delete-btn:hover {
+  background: #fafafa;
+}
+
+.empty-msg {
+  text-align: center;
+  color: #8e8e8e;
+  padding: 40px 16px;
+  font-size: 14px;
+}
+
+.post-image {
+  width: 100%;
+  display: block;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.post-form input[type="file"] {
+  background: white;
+  border: none;
+  padding: 6px 0;
+}
