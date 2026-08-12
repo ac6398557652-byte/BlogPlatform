@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anmol\\OneDrive\\Documents\\BlogPlatform\\CSharpPractice\\CSharpPractice.csproj": {}
+    "C:\\Users\\anmol\\OneDrive\\Documents\\GitHub\\BlogPlatform\\BlogPlatform\\CSharpPractice\\CSharpPractice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anmol\\OneDrive\\Documents\\BlogPlatform\\CSharpPractice\\CSharpPractice.csproj": {
+    "C:\\Users\\anmol\\OneDrive\\Documents\\GitHub\\BlogPlatform\\BlogPlatform\\CSharpPractice\\CSharpPractice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anmol\\OneDrive\\Documents\\BlogPlatform\\CSharpPractice\\CSharpPractice.csproj",
+        "projectUniqueName": "C:\\Users\\anmol\\OneDrive\\Documents\\GitHub\\BlogPlatform\\BlogPlatform\\CSharpPractice\\CSharpPractice.csproj",
         "projectName": "CSharpPractice",
-        "projectPath": "C:\\Users\\anmol\\OneDrive\\Documents\\BlogPlatform\\CSharpPractice\\CSharpPractice.csproj",
+        "projectPath": "C:\\Users\\anmol\\OneDrive\\Documents\\GitHub\\BlogPlatform\\BlogPlatform\\CSharpPractice\\CSharpPractice.csproj",
         "packagesPath": "C:\\Users\\anmol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anmol\\OneDrive\\Documents\\BlogPlatform\\CSharpPractice\\obj\\",
+        "outputPath": "C:\\Users\\anmol\\OneDrive\\Documents\\GitHub\\BlogPlatform\\BlogPlatform\\CSharpPractice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
